@@ -36,5 +36,17 @@ mistral
 
 ## connect to  gemini and groq using api key and lang chain 
 
+## what are tokens ?
+-[] tokens are units of text processed by LLms 
+## A token can be 
+-[] A word ("hello Word")
+-[] A subword ("un","able")
 
+-[] A punctions market (",",";")
+
+## Examples 
+ text "hello world ! "
+ Tokens ---> hello , world ,!
+
+ ## tokens are not the same are charachters one token can be muliple characters , depending on the tokenizer 
 *تم التوثيق بواسطة: [ali salhab]*
