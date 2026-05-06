@@ -22,6 +22,8 @@
    `GOOGLE_API_KEY=your_key_here`
 
 ---
+## 🛠 definitions 
+
 what is llms ? 
 the large language model is a model trained on massive txt datasets to predict the next token in squence 
 it can generate text answer questions summarize tranlslate etc 
@@ -32,7 +34,7 @@ falcon
 mistral 
 
 
-
+## connect to  gemini and groq using api key and lang chain 
 
 
 *تم التوثيق بواسطة: [ali salhab]*
