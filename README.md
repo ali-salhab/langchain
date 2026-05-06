@@ -49,4 +49,31 @@ mistral
  Tokens ---> hello , world ,!
 
  ## tokens are not the same are charachters one token can be muliple characters , depending on the tokenizer 
+
+
+
+## Wgat is a Context Window ?
+* the context window is the maximum number of tokens a model can see at once 
+* Determne how much text the model can consider when generating responses 
+
+* if input + output exceeds the window the model cannot access older tokens
+
+* Example 
+ * Gpt-4 has context windows of 8k , 32k token depending on the version 
+
+ * a 32k token window can roughly handle 20-25k words 
+
+
+
+
+
+
+
+
+
+
+
+
 *تم التوثيق بواسطة: [ali salhab]*
+
+
