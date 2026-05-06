@@ -52,7 +52,7 @@ mistral
 
 
 
-## Wgat is a Context Window ?
+## What is a Context Window ?
 * the context window is the maximum number of tokens a model can see at once 
 * Determne how much text the model can consider when generating responses 
 
@@ -63,13 +63,25 @@ mistral
 
  * a 32k token window can roughly handle 20-25k words 
 
+## why tokens matter 
+* LLms process input in tokens 
+* maximum tokens = models context window size 
+* cost and response length are measured in  tokens 
+* longer inputs --> more tokens --> higher computation cost 
 
 
+## practical impleications 
+* keep prompts concise for efficiency 
+ # يجب ان تكون البرومبت دقيقة من اجل كفاءة افضل 
+* large documents -> consider spiltting into chuncks for processing
 
+* LLms cannot remmember past the context window without memory augmentayion 
 
+* usefull for applicatons like RAG (Retrival augmented Gerneration) where you feed relevant chuncks only 
 
+*![alt text](image.png)
 
-
+![alt text](image-1.png)
 
 
 
