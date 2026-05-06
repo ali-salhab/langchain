@@ -84,8 +84,13 @@ mistral
 ![alt text](image-1.png)
 
 
+ -->
 
 
+## Example : Using LLM VS ChatModel 
+* example 1 Base LLM 
+   prompt: ![alt text](image-2.png)
 *تم التوثيق بواسطة: [ali salhab]*
 
+* example 2 chatModel
 
